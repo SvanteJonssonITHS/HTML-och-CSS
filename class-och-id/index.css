@@ -1,8 +1,6 @@
-#a {
-    background-color: red;
-  }
-  
-  .b {
-    color: red;
-  }
-  
+.tab {
+    font-style: italic;
+}
+#active {
+    font-weight: bold;
+}
