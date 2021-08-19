@@ -1,7 +1,4 @@
-h1 {
-    font: italic normal 180% "Open Sans", Arial, Helvetica, sans-serif;
-}
-p {
-    font-family: serif;
-    line-height: 1.4;
-}
+@font-face {
+    font-family: MyFont;
+    src: url(StyleScript-Regular.ttf);
+  }
