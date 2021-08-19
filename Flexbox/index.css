@@ -1,7 +1,16 @@
+header {
+    height: 3rem;
+}
+
+footer {
+    height: 2rem;
+}
+
+main {
+    flex-grow: 2;
+}
+
 body {
     display: flex;
-    align-items: flex-end;
+    flex-direction: column;
 }
-#first {
-    flex-grow: 2;
-  }
