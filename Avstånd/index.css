@@ -1,5 +1,6 @@
 div {
-    width: 500px;
-    height: 250px;
-    background-color: hotpink;
+    font-size: 1.25em;
+}
+#lorem-ipsum {
+    font-size: 1.5em;
 }
