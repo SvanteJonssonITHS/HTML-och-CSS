@@ -1,6 +1,4 @@
 body {
     display: flex;
-}
-div {
-    margin: auto;
+    justify-content: flex-end;
 }
