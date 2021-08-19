@@ -1,4 +1,10 @@
 @font-face {
     font-family: MyFont;
     src: url(StyleScript-Regular.ttf);
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: MyFont;
+    src: url(StyleScript-Light.ttf);
+    font-weight: 300;
   }
