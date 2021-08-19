@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 h1 {
-    margin-bottom: 0;
+    background-color: hotpink;
+    border: 1px solid black;
+    padding: 2px;
 }
