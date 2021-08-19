@@ -2,11 +2,38 @@
 <html lang="sv">
   <head>
     <meta charset="utf-8">
-    <title>Utfyllnad och en ram</title>
+    <title>Vad som ingår i height och width (VG)</title>
     <link href="index.css" rel="stylesheet">
+    <style>
+     /* Declarations shared between all three boxes */
+     .box {
+       height: 150px;
+       margin-bottom: 8px;
+       width: 150px;
+     }
+
+     /* No border or padding */
+     #first {
+       background-color: #faa;
+     }
+
+     /* Border, but not padding */
+     #second {
+       background-color: #afa;
+       border: solid 10px black;
+     }
+
+     /* Border and padding */
+     #third {
+       background-color: #aaf;
+       border: solid 10px black;
+       padding: 10px;
+     }
+    </style>
   </head>
   <body>
-    <h1 style="background-color: #faa;">Rubrik</h1>
-    <div style="background-color: #afa;">Element</div>
+    <div class="box" id="first">Element</div>
+    <div class="box" id="second">Element</div>
+    <div class="box" id="third">Element</div>
   </body>
 </html>
