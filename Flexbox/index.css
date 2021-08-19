@@ -1,5 +1,7 @@
 header {
     height: 3rem;
+    display: flex;
+    align-items: center;
 }
 
 footer {
@@ -13,4 +15,8 @@ main {
 body {
     display: flex;
     flex-direction: column;
+}
+
+#second {
+    flex-grow: 2;
 }
