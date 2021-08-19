@@ -1,6 +1,6 @@
-div {
-    font-size: 1.25rem;
-}
-#lorem-ipsum {
-    font-size: 1.875rem;
+.container {
+    width: 80%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
 }
