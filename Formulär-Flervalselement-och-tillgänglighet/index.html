@@ -2,35 +2,44 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8" />
-        <title>Rullgardinsmeny</title>
+        <title>fieldset och legend</title>
         <meta content="initial-scale=1, width=device-width" name="viewport" />
     </head>
     <body>
-        <label>
-            Banana
-            <input checked name="Banana" type="checkbox" value="Banana" />
-        </label>
-        <label>
-            Apple
-            <input name="Apple" type="checkbox" value="Apple" />
-        </label>
-        <label>
-            Strawberry
-            <input name="ice-cream" type="radio" value="Strawberry" />
-        </label>
-        <label>
-            Vanilla
-            <input name="ice-cream" type="radio" value="Vanilla" />
-        </label>
-        <label>
-            Pear
-            <input name="ice-cream" type="radio" value="Pear" />
-        </label>
-        <label for="berry"> Choose your berry </label>
-        <select name="Berry" id="berry">
-            <option value="Blueberry">Blueberry</option>
-            <option value="Blackberry">Blackberry</option>
-            <option value="Lingonberry">Lingonberry</option>
-        </select>
+        <fieldset>
+            <legend>Favorite Fruit</legend>
+            <label>
+                Banana
+                <input checked name="Banana" type="checkbox" value="Banana" />
+            </label>
+            <label>
+                Apple
+                <input name="Apple" type="checkbox" value="Apple" />
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Favorite Ice Cream</legend>
+            <label>
+                Strawberry
+                <input name="ice-cream" type="radio" value="Strawberry" />
+            </label>
+            <label>
+                Vanilla
+                <input name="ice-cream" type="radio" value="Vanilla" />
+            </label>
+            <label>
+                Pear
+                <input name="ice-cream" type="radio" value="Pear" />
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Favorite Berry</legend>
+            <label for="berry"> Choose your berry </label>
+            <select name="Berry" id="berry">
+                <option value="Blueberry">Blueberry</option>
+                <option value="Blackberry">Blackberry</option>
+                <option value="Lingonberry">Lingonberry</option>
+            </select>
+        </fieldset>
     </body>
 </html>
