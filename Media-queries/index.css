@@ -1,5 +1,9 @@
-@media (min-width: 500px) and (max-width: 600px) {
+@media (min-width: 500px) {
     body {
-      background-color: blue;
+      display: flex;
+      flex-direction: row;
+    }
+    div {
+        width: 50%;
     }
   }
