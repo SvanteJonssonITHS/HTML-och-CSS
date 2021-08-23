@@ -1,9 +1,12 @@
-@media (min-width: 500px) {
+@media (prefers-color-scheme: dark) {
     body {
-      display: flex;
-      flex-direction: row;
+        background-color: #3d3d3d;
+        color: #ddddcd;
     }
-    div {
-        width: 50%;
+  }
+  @media (prefers-color-scheme: light) {
+    body {
+        background-color: #ddddcd;
+        color: #3d3d3d;
     }
   }
