@@ -2,44 +2,17 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8" />
-        <title>fieldset och legend</title>
+        <title>Ett filuppladdningsfält</title>
         <meta content="initial-scale=1, width=device-width" name="viewport" />
     </head>
     <body>
-        <fieldset>
-            <legend>Favorite Fruit</legend>
-            <label>
-                Banana
-                <input checked name="Banana" type="checkbox" value="Banana" />
-            </label>
-            <label>
-                Apple
-                <input name="Apple" type="checkbox" value="Apple" />
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>Favorite Ice Cream</legend>
-            <label>
-                Strawberry
-                <input name="ice-cream" type="radio" value="Strawberry" />
-            </label>
-            <label>
-                Vanilla
-                <input name="ice-cream" type="radio" value="Vanilla" />
-            </label>
-            <label>
-                Pear
-                <input name="ice-cream" type="radio" value="Pear" />
-            </label>
-        </fieldset>
-        <fieldset>
-            <legend>Favorite Berry</legend>
-            <label for="berry"> Choose your berry </label>
-            <select name="Berry" id="berry">
-                <option value="Blueberry">Blueberry</option>
-                <option value="Blackberry">Blackberry</option>
-                <option value="Lingonberry">Lingonberry</option>
-            </select>
-        </fieldset>
+        <form
+            action="https://avancera.app/api/assignments/3947a661-0232-457b-aed6-1b8c3d62271c/upload"
+            method="post"
+            enctype="multipart/form-data"
+        >
+            <input type="file" name="file" />
+            <input type="submit" value="Send" />
+        </form>
     </body>
 </html>
