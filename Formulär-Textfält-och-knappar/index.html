@@ -2,16 +2,20 @@
 <html lang="sv">
     <head>
         <meta charset="utf-8" />
-        <title>Flerradstextfält och placeholders</title>
+        <title>Ett POST-formulär och en input-knapp</title>
         <meta content="initial-scale=1, width=device-width" name="viewport" />
     </head>
     <body>
-        <input type="text" name="user-name" placeholder="User name"/>
-        <textarea
-            cols="40"
-            name="message"
-            placeholder="Message"
-            rows="4"
-        ></textarea>
+        <form method="POST" action="https://www.example.com/">
+            <input type="text" name="user-name" placeholder="User name"/>
+            <textarea
+                cols="40"
+                name="message"
+                placeholder="Message"
+                rows="4"
+            ></textarea>
+            <input type="submit" value="Send">
+        </form>
+        
     </body>
 </html>
