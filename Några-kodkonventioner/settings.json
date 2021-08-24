@@ -23,5 +23,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "editor.tabSize": 4,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "editor.rulers": [80]
 }
